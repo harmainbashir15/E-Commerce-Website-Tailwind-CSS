@@ -7,15 +7,15 @@ function About() {
   <div className="container m-0 p-0 py-10 mx-auto">
     <div className="flex flex-wrap w-full mb-18">
       <div className="lg:w-1/2 w-full mb-6  lg:mb-0"> 
-        <h1 className="sm:text-4xl text-2xl g-3 font-bold mb-2 text-black"> Our Specialities</h1>
+        <h1 className="sm:text-4xl text-2xl g-3 font-bold mb-2 text-black" data-aos="zoom-in-up"> Our Specialities</h1>
       </div>
-      <p className="lg:w-10/12 w-full text-bold text-black">"At <b>The Cake Palette</b>, our journey began with a passion for baking and a dream to share the warmth and comfort of freshly made goods with our community. From humble beginnings in a small kitchen to a beloved neighborhood bakery, we’ve grown thanks to the love and support of our loyal customers. Every day, we bake with heart, using the finest ingredients to create delicious treats that bring people together. Join us in celebrating the art of baking and the simple joys of life, one bite at a time."</p>
+      <p className="lg:w-10/12 w-full text-bold text-black" data-aos="zoom-in-up">"At <b>The Cake Palette</b>, our journey began with a passion for baking and a dream to share the warmth and comfort of freshly made goods with our community. From humble beginnings in a small kitchen to a beloved neighborhood bakery, we’ve grown thanks to the love and support of our loyal customers. Every day, we bake with heart, using the finest ingredients to create delicious treats that bring people together. Join us in celebrating the art of baking and the simple joys of life, one bite at a time."</p>
     </div>
     <div className="flex flex-wrap -m-4">
       <div className="xl:w-1/4 md:w-1/2 p-4">
-        <div className="p-6 rounded-lg transition-transform duration-200 ease-in-out transform hover:scale-110">
+        <div className="p-6 rounded-lg transition-transform duration-200 ease-in-out transform hover:scale-110" >
           <Image className="h-40 rounded w-full object-cover object-center mb-6" src="/cookies.jpg" alt="image" width={400} height={300} />
-          <h2 className="text-lg text-black font-bold  mb-4">Cookies</h2>
+          <h2 className="text-lg text-black font-bold  mb-4" >Cookies</h2>
           <p className="text-base"> Our cookies are the heart of our bakery, baked fresh daily to achieve the perfect balance of crispiness on the outside and chewy goodness on the inside. Each cookie is a delightful treat, bursting with rich flavors that keep our customers coming back for more. </p>
         </div>
       </div>

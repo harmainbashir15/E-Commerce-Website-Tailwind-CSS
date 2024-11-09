@@ -1,3 +1,4 @@
+
 import React from "react";
 import Image from "next/image";
 function Hero() {
@@ -7,8 +8,8 @@ function Hero() {
       <section className="flex flex-col md:flex-row gap-4 items-center">
         {/* Left side */}
         <div className="flex-1">
-          <h1 className="font-bold text-2xl md:text-4xl text-slate-950">Why Choose Cake Palette? </h1>
-          <p className="text-md md:text-lg text-black  mt-2">
+          <h1 className="font-bold text-2xl md:text-4xl text-slate-950"data-aos="zoom-in-up">Why Choose Cake Palette? </h1>
+          <p className="text-md md:text-lg text-black  mt-2" data-aos="zoom-in-up">
          
 
 <b>Customizable Cake Designs:</b> Cake Palette offers a wide variety of designs and flavors that can be personalized to match any event or theme, ensuring a unique experience for every customer.<br></br>
@@ -32,7 +33,7 @@ function Hero() {
         </div>
         {/* Right Side */}
         <div className="flex-1 w-full h-auto">
-          <Image width={400} height={300} src="/poster2.jpg" alt="Image" className="object-cover w-full h-full block" />
+          <Image width={400} height={300} src="/poster2.jpg" alt="Image" className="object-cover w-full h-full block"  data-aos="zoom-in-up"/>
           
         </div>
       </section>

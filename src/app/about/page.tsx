@@ -10,10 +10,10 @@ function About() {
 
       <section className="bg-yellow-500 min-h-screen">
         <div className="container px-5 py-10 mx-auto">
-          <h1 className="text-black text-center py-10 mb-2 font-bold text-5xl">
+          <h1 className="text-black text-center py-10 mb-2 font-bold text-5xl" data-aos="zoom-in-up">
            ABOUT US
           </h1>
-          <p className="text-black text-xl text-center pt-0 mb-5">
+          <p className="text-black text-xl text-center pt-0 mb-5" data-aos="zoom-in-up">
           Welcome to <b>The Cake Palette</b>, where every cake tells a story! Established with a passion for baking and a love for bringing joy to special moments, we specialize in creating delicious, custom-made cakes that look as good as they taste.
 
 At <b>Cake Palette</b>, we believe that every celebration deserves a centerpiece that reflects your personality and tastes. Whether you're planning a birthday, wedding, anniversary, or any special occasion, our cakes are baked fresh with the finest ingredients and crafted with precision and care.

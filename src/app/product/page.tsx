@@ -9,7 +9,7 @@ function Product() {
     <Header />
     <section className="bg-slate-100">
       <div className="container mx-auto py-15 px-5">
-        <h1 className="text-black sm:text-4xl text-2xl mb-2 text-center font-bold">
+        <h1 className="text-black sm:text-4xl text-2xl mb-2 text-center font-bold" data-aos="zoom-in-up">
           Our Products
         </h1>
         <div className="flex flex-wrap -m-2">

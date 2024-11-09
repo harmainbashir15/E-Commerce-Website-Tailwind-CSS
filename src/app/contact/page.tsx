@@ -4,8 +4,8 @@ function Contact() {
     <section className="bg-slate-100">
   <div className="container px-5 py-20 mx-auto">
     <div className="flex flex-col text-center w-full mb-12">
-      <h1 className="sm:text-4xl text-2xl font-bold mb-4 text-black">Contact Us</h1>
-      <p className="lg:w-2/3 mx-auto  text-slate-600 font-semibold">We love to hear from our customers! Whether you have questions, feedback, or just want to say hello, feel free to reach out to us. For inquiries or special requests, please fill out the form below, and we’ll get back to you as soon as possible.</p>
+      <h1 className="sm:text-4xl text-2xl font-bold mb-4 text-black" data-aos="zoom-in-up">Contact Us</h1>
+      <p className="lg:w-2/3 mx-auto  text-slate-600 font-semibold" data-aos="zoom-in-up">We love to hear from our customers! Whether you have questions, feedback, or just want to say hello, feel free to reach out to us. For inquiries or special requests, please fill out the form below, and we’ll get back to you as soon as possible.</p>
     </div>
     <div className="lg:w-1/2 md:w-2/3 mx-auto">
       <div className="flex flex-wrap -m-2">
